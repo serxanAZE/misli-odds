@@ -1,0 +1,42 @@
+JS https://www.google.com/recaptcha/api.js?hl=az&render=explicit 978
+JS https://www.googletagmanager.com/gtm.js?id=GTM-P346ZSM 485331
+JS https://pcdn.dengage.com/p/push/797/fd3ffe63-c33f-cee9-9a0e-f101fb347a9f/dengage_sdk.js 90131
+JS https://www.misli.az/_nuxt/9851c51.js 8625
+JS https://www.misli.az/_nuxt/ceb0b92.js 237072
+JS https://www.misli.az/_nuxt/957f595.js 574108
+JS https://www.misli.az/_nuxt/fd0b0f9.js 974234
+
+FOUND
+PATH /api/realtime-onsite/event
+PATH /api/web/event
+PATH /coupon/game/
+PATH /eventsource
+PATH /match/
+PATH /matches/live
+PATH /reco-events/batch
+PATH /social/event/
+PATH /social/event/chat
+PATH /social/event/chat/report
+PATH /sportsbook/author/
+PATH /sportsbook/authors
+PATH /sportsbook/comments
+PATH /sportsbook/events/markets
+https://apivx.misli.az/api/web/
+https://campaign-aggregator.misli.az/api/web/
+https://misli.az
+https://social-aggregator.misli.az/api/web/
+https://socket-service.misli.az/
+https://socket-service.misli.az/eventSpace
+https://socket-service.misli.az/scoreSpace
+https://socket-social-service.misli.az/
+https://socket-virtual-game-service.misli.az/
+https://socket-virtual-game-service.misli.az/topWinnerSpace
+https://socket-wager-stats.misli.az/
+https://socket-wager-stats.misli.az/ws/event-play-stats
+https://virtual-game-aggregator.misli.az/api/web/
+https://wager-stats-aggregator.misli.az/api/web/
+https://www.misli.az/epoz-qazan/butun-oyunlar
+https://www.misli.az/hesabim/pul-goturme
+https://www.misli.az/hesabim/pul-kocurme
+https://www.misli.az/idman-novleri
+https://www.misli.az/idman-novleri/merc_et
