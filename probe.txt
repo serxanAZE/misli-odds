@@ -1,0 +1,19 @@
+=== https://apivx.misli.az/api/web/
+STATUS 404 TYPE application/json; LEN 46
+{"success":false,"error":[["Url Bulunamadı"]]}
+
+=== https://apivx.misli.az/api/web/event
+STATUS 404 TYPE application/json; LEN 46
+{"success":false,"error":[["Url Bulunamadı"]]}
+
+=== https://apivx.misli.az/api/web/matches/live
+STATUS 404 TYPE application/json; LEN 46
+{"success":false,"error":[["Url Bulunamadı"]]}
+
+=== https://apivx.misli.az/api/web/sportsbook/events/markets
+STATUS 404 TYPE application/json; LEN 46
+{"success":false,"error":[["Url Bulunamadı"]]}
+
+=== https://virtual-game-aggregator.misli.az/api/web/
+STATUS 404 TYPE application/json LEN 79
+{"timestamp":1792091525503,"status":404,"error":"Not Found","path":"/api/web/"}
