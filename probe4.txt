@@ -1,0 +1,134 @@
+W=https://wager-stats-aggregator.misli.az/api
+/web/
+GET https://wager-stats-aggregator.misli.az/a
+pi/web/
+200 {"success":false,"error":[{"message":"141
+999","code":"141999"}]}
+
+GET https://wager-stats-aggregator.misli.az/a
+pi/web/statistics/sport/1/matches/live
+200 {"success":false,"error":[{"message":"141
+999","code":"141999"}]}
+
+GET https://wager-stats-aggregator.misli.az/a
+pi/web/statistics/sport/2/matches/live
+200 {"success":false,"error":[{"message":"141
+999","code":"141999"}]}
+
+GET https://wager-stats-aggregator.misli.az/a
+pi/web/statistics/sport/soccer/matches/live
+200 {"success":false,"error":[{"message":"141
+999","code":"141999"}]}
+
+GET https://wager-stats-aggregator.misli.az/a
+pi/web/statistics/sport/SOCCER/matches/live
+200 {"success":false,"error":[{"message":"141
+999","code":"141999"}]}
+
+GET https://wager-stats-aggregator.misli.az/a
+pi/web/statistics/sport/football/matches/live
+
+200 {"success":false,"error":[{"message":"141
+999","code":"141999"}]}
+
+GET https://wager-stats-aggregator.misli.az/a
+pi/web/statistics/sport/FOOTBALL/matches/live
+
+200 {"success":false,"error":[{"message":"141
+999","code":"141999"}]}
+
+## SOCCER
+ew/:id",VIRTUAL_BINQO:"/binqo","VIRTUAL_BINQO
+_WEBVİEW":"/virtual-binqo-webview",BULLETIN_D
+EFAULT:"/idman-novleri",BULLETIN_DEFAULT_DYNA
+MIC:"/idman-novleri/:id",BULLETIN_PRE:"/idman
+-novleri/",BULLETIN_SOCCER:"futbol",BULLETIN_
+LIVE:"/idman-novleri/canli-merc/",BULLETIN_LI
+VE_DYNAMIC:"/idman-novleri/canli-merc/:type",
+BULLETIN_LIVE_DEFAULT:"/idman-novleri/canli-m
+erc",BULLETIN_LONG_TERM:"/idman-novleri/uzun-
+m
+
+## SOCCER
+,value:function(){var e=this.getLocalStorage(
+"betslip")?this.jsonParse(this.getLocalStorag
+e("betslip")):[];return!!this.isValidArray(e)
+}},{key:"getSportType",value:function(e){swit
+ch(e){case 1:return"SOCCER";case 2:return"BAS
+KETBALL";case 3:return"TENNIS";case 4:return"
+HANDBALL";case 5:case 19:return"SNOOKER";case
+ 6:return"VOLLEYBALL";case 8:return"MOTO_GP";
+default:return"NO_TYPE"}}},{key:"mappingCampa
+i
+
+## SOCCER
+lı",active:!1,value:"LIVE"},{text:"Başlamayan
+",active:!1,value:"NOT_STARTED"},{text:"Siste
+m",active:!1,value:"SYSTEM"}],"Mərc növü":[{t
+ext:"Hamısı",active:!0,value:""},{text:"Futbo
+l",active:!1,value:"SOCCER"},{text:"Basketbol
+",active:!1,value:"BASKETBALL"},{text:"Tennis
+",active:!1,value:"TENNIS"}],"Oyun sayı":[{te
+xt:"Hamısı",active:!0,value:{minEventCount:""
+,maxEventCount:""}},{text:"1",active:!1,value
+:
+
+## sportTypes
+==("ALL"!=e.eventListFilter?e.eventListFilter
+:t.sportType)})},getEventCount:function(e){re
+turn e.eventList.events?e.eventList.events.le
+ngth:0},getIsEvent:function(e){return functio
+n(t){if(e.eventList.sportTypes)return-1!=e.ev
+entList.sportTypes.findIndex(function(e){retu
+rn e==t})}},getOtherNextLiveEvents:function(e
+){if(e.eventList.events)return e.eventList.ev
+ents},getBetradar:function(e){return e.betrad
+ar},g
+
+## sportTypes
+ntListFilter:t.sportType)})},getEventCount:fu
+nction(e){return e.eventList.events?e.eventLi
+st.events.length:0},getIsEvent:function(e){re
+turn function(t){if(e.eventList.sportTypes)re
+turn-1!=e.eventList.sportTypes.findIndex(func
+tion(e){return e==t})}},getOtherNextLiveEvent
+s:function(e){if(e.eventList.events)return e.
+eventList.events},getBetradar:function(e){ret
+urn e.betradar},getImg:function(e){return e.i
+mg}},
+
+## sportTypes
+tLive=!1:i[e].isNextLive=!0,(-1==s.findIndex(
+function(t){return t==i[e].sportType})&&"SOCC
+ER"==i[e].sportType||"BASKETBALL"==i[e].sport
+Type||"VOLLEYBALL"==i[e].sportType)&&s.push(i
+[e].sportType)}),l={sportTypes:s,events:Objec
+t.keys(i).length>0?Object.keys(i).map(functio
+n(e){var t=i[e].sportType,n=null;a&&a.sports[
+t]&&(n=a.sports[t].preUnSelectedPath);var o=i
+[e].homeTeamName?i[e].homeTeamName:i[e].homeC
+ompet
+
+## matches/live
+getStreamToken:function(e){return n("live-str
+eam/fixture/"+e.fixtureId+"/stream/"+e.stream
+Id).httpGet()}}),t("matchDetailLibrary",{getL
+iveEvents:function(e){return n("statistics/sp
+ort/"+e.sportType+"/matches/live").httpGet()}
+,getEvents:function(e){return n("statistics/s
+port/"+e.sportType+"/matches/old?fromdate="+e
+.fromDate).httpGet()},getMatchStatistics:func
+tion(e){return n("statistics/sportType/"+e.sp
+ortType
+
+## matches/live
+ETS",t)},changeSocketScoreUpdate:function(e,t
+){(0,e.commit)("CHANGE_SOCKET_SCORE_UPDATE",t
+)},getLiveMatchesDetails:function(e,t){var n=
+e.commit;this.$publicAxios.get("statistics/sp
+ort/"+t.sportType+"/matches/live").then(funct
+ion(e){e.data.success&&n("SET_LIVE_EVENTS_DET
+AILS",e.data.data.data)}).catch(function(){})
+},upsertFavorite:function(e,t){e.commit("UPSE
+RT_FAVORITE",t)},dispatchPercentage:function(
+e,t){th
