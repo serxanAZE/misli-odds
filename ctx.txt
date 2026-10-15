@@ -1,0 +1,50 @@
+## sportsbook/events/markets @ uxt/fd0b0f9.js
+ok/markets").httpPost(e)},getSingleEvent:function(e){re
+turn n("sportsbook/event/".concat(e.eventId,"/single"))
+.httpGet()},getMarketsInfo:function(e){return n("/sport
+sbook/events/markets").httpPost(e)},getFavoriteMarkets:
+function(){return n("sportsbook/favorite-markets").http
+Get()},deleteFavoriteMarkets:function(e){return n("spor
+tsbook/favorite
+
+## api/web/ @ uxt/fd0b0f9.js
+://socket-virtual-game-service.misli.az/",SOCIAL_SOCKET
+_HOST_URL:"https://socket-social-service.misli.az/",DEV
+_ENV:"production",API_URL:"https://apivx.misli.az/api/w
+eb/",SOCIAL_AGGREGATOR_API_URL:"https://social-aggregat
+or.misli.az/api/web/",VIRTUAL_AGGREGATOR_API_URL:"https
+://virtual-game-aggregator.misli.az/api/web/",WAGER_S
+
+## api/web/ @ uxt/fd0b0f9.js
+//socket-social-service.misli.az/",DEV_ENV:"production"
+,API_URL:"https://apivx.misli.az/api/web/",SOCIAL_AGGRE
+GATOR_API_URL:"https://social-aggregator.misli.az/api/w
+eb/",VIRTUAL_AGGREGATOR_API_URL:"https://virtual-game-a
+ggregator.misli.az/api/web/",WAGER_STATS_SOCKET_HOST_UR
+L:"https://socket-wager-stats.misli.az/",WAGER_STATS_
+
+## api/web/ @ uxt/fd0b0f9.js
+misli.az/api/web/",SOCIAL_AGGREGATOR_API_URL:"https://s
+ocial-aggregator.misli.az/api/web/",VIRTUAL_AGGREGATOR_
+API_URL:"https://virtual-game-aggregator.misli.az/api/w
+eb/",WAGER_STATS_SOCKET_HOST_URL:"https://socket-wager-
+stats.misli.az/",WAGER_STATS_AGGREGATOR_API_URL:"https:
+//wager-stats-aggregator.misli.az/api/web/",CAMPAIGN_
+
+## matches/live @ uxt/fd0b0f9.js
+e-stream/fixture/"+e.fixtureId+"/stream/"+e.streamId).h
+ttpGet()}}),t("matchDetailLibrary",{getLiveEvents:funct
+ion(e){return n("statistics/sport/"+e.sportType+"/match
+es/live").httpGet()},getEvents:function(e){return n("st
+atistics/sport/"+e.sportType+"/matches/old?fromdate="+e
+.fromDate).httpGet()},getMatchStatistics:function(e){re
+tu
+
+## matches/live @ uxt/fd0b0f9.js
+n(e,t){(0,e.commit)("CHANGE_SOCKET_SCORE_UPDATE",t)},ge
+tLiveMatchesDetails:function(e,t){var n=e.commit;this.$
+publicAxios.get("statistics/sport/"+t.sportType+"/match
+es/live").then(function(e){e.data.success&&n("SET_LIVE_
+EVENTS_DETAILS",e.data.data.data)}).catch(function(){})
+},upsertFavorite:function(e,t){e.commit("UPSERT_FAVORIT
+E"
