@@ -1,0 +1,215 @@
+GET https://apivx.misli.az/api/web/sportsbook
+/events?ids=1
+404 {"success":false,"error":[["Url Bulunamad
+ı"]]}
+
+GET https://apivx.misli.az/api/web/sportsbook
+/favorite-markets
+404 {"success":false,"error":[["Url Bulunamad
+ı"]]}
+
+GET https://socket-service.misli.az/socket.io
+/?EIO=4&transport=polling
+200 97:0{"sid":"ULK2-rNa0Bv1OhyjMWF6","upgrad
+es":["websocket"],"pingInterval":25000,"pingT
+imeout":20000}2:40
+
+## baseURL
+,p=t.headers,h=t.responseType;r.isFormData(l)
+&&delete p["Content-Type"];var d=new XMLHttpR
+equest;if(t.auth){var v=t.auth.username||"",y
+=t.auth.password?unescape(encodeURIComponent(
+t.auth.password)):"";p.Authorization="Basic "
++btoa(v+":"+y)}var m=s(t.baseURL,t.url);funct
+ion g(){if(d){var r="getAllResponseHeaders"in
+ d?c(d.getAllResponseHeaders()):null,i={data:
+h&&"text"!==h&&"json"!==h?d.response:d.respon
+seText,status:d.status,statusText:d.statusTex
+t,headers:r,config:t,request:d};o(e,n,i),d=nu
+ll}}if(d.ope
+
+## baseURL
+,e,n,o,i)}},346:function(t,e,n){"use strict";
+t.exports=function(t){return!(!t||!t.__CANCEL
+__)}},347:function(t,e,n){"use strict";var r=
+n(50);t.exports=function(t,e){e=e||{};var n={
+},o=["url","method","data"],i=["headers","aut
+h","proxy","params"],a=["baseURL","transformR
+equest","transformResponse","paramsSerializer
+","timeout","timeoutMessage","withCredentials
+","adapter","responseType","xsrfCookieName","
+xsrfHeaderName","onUploadProgress","onDownloa
+dProgress","decompress","maxContentLength","m
+axBodyLength
+
+## baseURL
+:"w",height:"h",resize:"s",quality:"q",backgr
+ound:"b"},joinWith:",",formatter:function(e,t
+){return Object(r.a)(e)+"_"+Object(r.a)(t)}})
+,a=function(e){var t=arguments.length>1&&void
+ 0!==arguments[1]?arguments[1]:{},n=t.modifie
+rs,i=void 0===n?{}:n,a=t.baseURL,s=arguments.
+length>2?arguments[2]:void 0;i.width&&i.heigh
+t&&(i.resize="".concat(i.width,"x").concat(i.
+height),delete i.width,delete i.height);var u
+,c=o(i)||"_";a||(a=Object(r.d)((null===(u=s.n
+uxtContext)||void 0===u?void 0:u.base)||"/","
+/_ipx"));ret
+
+## baseURL
+e},e:function(e){s=!0,a=e},f:function(){try{r
+||null==n.return||n.return()}finally{if(s)thr
+ow a}}}}function et(e,t){(null==t||t>e.length
+)&&(t=e.length);for(var n=0,i=Array(t);n<t;n+
++)i[n]=e[n];return i}for(var tt={setBaseURL:f
+unction(e){this.defaults.baseURL=e},setHeader
+:function(e,t){var n,i=arguments.length>2&&vo
+id 0!==arguments[2]?arguments[2]:"common",o=X
+e(Array.isArray(i)?i:[i]);try{for(o.s();!(n=o
+.n()).done;){var a=n.value;t?this.defaults.he
+aders[a][e]=t:delete this.defaults.headers[a]
+[e]}}catch(e
+
+## baseURL
+);var o=function(e){if(i&&e.total){var t=100*
+e.loaded/(e.total*i);n().set(Math.min(100,t))
+}};e.defaults.onUploadProgress=o,e.defaults.o
+nDownloadProgress=o},st=function(e,t){var n=e
+.$config&&e.$config.axios||{},i=n.browserBase
+URL||n.browserBaseUrl||n.baseURL||n.baseUrl||
+"https://apivx.misli.az/api/web/";var o=at({b
+aseURL:i,headers:{common:{Accept:"application
+/json, text/plain, */*"},delete:{},get:{},hea
+d:{},post:{},put:{},patch:{}}});e.$axios=o,t(
+"axios",o)},lt=n(1234),ct=n(146),dt=n(147),ut
+=n(372),pt=n
+
+## baseURL
+);n().set(Math.min(100,t))}};e.defaults.onUpl
+oadProgress=o,e.defaults.onDownloadProgress=o
+},st=function(e,t){var n=e.$config&&e.$config
+.axios||{},i=n.browserBaseURL||n.browserBaseU
+rl||n.baseURL||n.baseUrl||"https://apivx.misl
+i.az/api/web/";var o=at({baseURL:i,headers:{c
+ommon:{Accept:"application/json, text/plain, 
+*/*"},delete:{},get:{},head:{},post:{},put:{}
+,patch:{}}});e.$axios=o,t("axios",o)},lt=n(12
+34),ct=n(146),dt=n(147),ut=n(372),pt=n(138),m
+t={screens:{xs:320,sm:640,md:768,lg:1024,xl:1
+280,xxl:1536
+
+## baseURL
+NE_MODAL_OPEN",!1)}}),"undefined"!=typeof nav
+igator&&n.commit("modules/network/SET_OFFLINE
+",!navigator.onLine),t.$offline={get value(){
+return n.getters["modules/network/isOffline"]
+}}},Cn=n(10),On=function(e,t){var n=e.$axios,
+i=e.$config,o=n.defaults.baseURL;n.defaults.b
+aseURL=o+"v1",n.defaults.headers.common["chan
+nel-type"]=Cn.a.deviceType(),n.defaults.heade
+rs.common["X-Domain-Type"]="MISLI",n.defaults
+.timeout=3e4;var a=function(e){e.interceptors
+.response.use(function(e){return e},function(
+e){return fu
+
+## baseURL
+}),"undefined"!=typeof navigator&&n.commit("m
+odules/network/SET_OFFLINE",!navigator.onLine
+),t.$offline={get value(){return n.getters["m
+odules/network/isOffline"]}}},Cn=n(10),On=fun
+ction(e,t){var n=e.$axios,i=e.$config,o=n.def
+aults.baseURL;n.defaults.baseURL=o+"v1",n.def
+aults.headers.common["channel-type"]=Cn.a.dev
+iceType(),n.defaults.headers.common["X-Domain
+-Type"]="MISLI",n.defaults.timeout=3e4;var a=
+function(e){e.interceptors.response.use(funct
+ion(e){return e},function(e){return function(
+e){return Pr
+
+## publicAxios
+NCEL_TOKEN",i),t})},l=qe.a.create({baseURL:n.
+defaults.baseURL,timeout:n.defaults.timeout,h
+eaders:{common:{"channel-type":Cn.a.deviceTyp
+e(),Accept:"text/plain, */*","X-Domain-Type":
+"MISLI"}}});a(l),s(l,["sportsbook/info/main",
+"sportsbook/config"]),t("publicAxios",l);var 
+c=qe.a.create({baseURL:o+"v2",timeout:n.defau
+lts.timeout,headers:{common:{"channel-type":C
+n.a.deviceType(),"X-Domain-Type":"MISLI"}}});
+a(c),s(c),t("publicAxiosV2",c);var d=qe.a.cre
+ate({baseURL:o+"v2",timeout:n.defaults.timeou
+t,headers:{commo
+
+## publicAxios
+omain-Type":"MISLI"}}});a(l),s(l,["sportsbook
+/info/main","sportsbook/config"]),t("publicAx
+ios",l);var c=qe.a.create({baseURL:o+"v2",tim
+eout:n.defaults.timeout,headers:{common:{"cha
+nnel-type":Cn.a.deviceType(),"X-Domain-Type":
+"MISLI"}}});a(c),s(c),t("publicAxiosV2",c);va
+r d=qe.a.create({baseURL:o+"v2",timeout:n.def
+aults.timeout,headers:{common:{"channel-type"
+:Cn.a.deviceType(),"X-Domain-Type":"MISLI"}}}
+);d.interceptors.request.use(function(e){var 
+t=localStorage.getItem("auth._token.local");r
+eturn t&&"false"
+
+## publicAxios
+e.resultData=t},SET_ST_RESULTS_PRICE_INFO:fun
+ction(e,t){e.priceInfo=t},SET_START_DATE:func
+tion(e,t){e.startDate=t},SET_END_DATE:functio
+n(e,t){e.endDate=t}},a={dispatch:function(e){
+var t=this;return e.commit("ST_REQUEST"),new 
+Promise(function(n,i){t.$publicAxios.get("spo
+rtoto/active").then(function(t){t.data.succes
+s&&t.data.data&&(a.sporTotoDataMapping(e,{dat
+a:t.data.data}),e.commit("SET_DEFAULT_PRICE",
+t.data.data.draw.defaultPrice),e.commit("SET_
+START_DATE",t.data.data.draw.startDate),e.com
+mit("SET_END_DAT
+
+## publicAxios
+ta.draw.defaultPrice),e.commit("SET_START_DAT
+E",t.data.data.draw.startDate),e.commit("SET_
+END_DATE",t.data.data.draw.endDate),e.commit(
+"SET_DRAWID",t.data.data.draw.drawNumber)),n(
+t)}).catch(function(e){i(e)})})},getSporTotoR
+esults:function(e){this.$publicAxios.get("spo
+rtoto/last").then(function(t){t.data.success&
+&a.sporTotoResultMapping(e,{data:t.data.data}
+)})},getSporTotoPriceInfo:function(e){this.$a
+xios.get("spor-toto/price-info").then(functio
+n(t){t.data.success&&a.sporTotoPriceMapping(e
+,{data:t.data.da
+
+## eventSpace
+a.filter(e,C[e])}),t.a=C},,,,,,function(e,t,n
+){"use strict";var i,o=n(143),a=n.n(o),r={rec
+onnection:!0,reconnectionDelay:1e4,reconnecti
+onDelayMax:15e3,reconnectionAttempts:5,closeO
+nBeforeunload:!0,autoConnect:!1,transports:["
+websocket","polling"]};i={eventUpdate:a()("ht
+tps://socket-service.misli.az/eventSpace",r),
+liveScore:a()("https://socket-service.misli.a
+z/scoreSpace",r),topWinner:a()("https://socke
+t-virtual-game-service.misli.az/topWinnerSpac
+e",r)},t.a=i},,function(e,t,n){"use strict";n
+.r(t),n.d(t,"strict",function(){return i}),n.
+d(t,"state",function(){return o});var i=!1,o=
+function(){return{PAGES:{
+
+## scoreSpace
+r i,o=n(143),a=n.n(o),r={reconnection:!0,reco
+nnectionDelay:1e4,reconnectionDelayMax:15e3,r
+econnectionAttempts:5,closeOnBeforeunload:!0,
+autoConnect:!1,transports:["websocket","polli
+ng"]};i={eventUpdate:a()("https://socket-serv
+ice.misli.az/eventSpace",r),liveScore:a()("ht
+tps://socket-service.misli.az/scoreSpace",r),
+topWinner:a()("https://socket-virtual-game-se
+rvice.misli.az/topWinnerSpace",r)},t.a=i},,fu
+nction(e,t,n){"use strict";n.r(t),n.d(t,"stri
+ct",function(){return i}),n.d(t,"state",funct
+ion(){return o});var i=!1,o=function(){return
+{PAGES:{BLANK:"#",HOME:"/",HOME_PATH:"",REGIS
+TER:"/uzvluk/daxil-ol",AP
