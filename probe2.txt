@@ -1,0 +1,124 @@
+GET https://apivx.misli.az/api/web/statistics
+/sport/1/matches/live
+404 {"success":false,"error":[["Url Bulunamad
+ı"]]}
+
+GET https://apivx.misli.az/api/web/statistics
+/sport/football/matches/live
+404 {"success":false,"error":[["Url Bulunamad
+ı"]]}
+
+GET https://apivx.misli.az/api/web/statistics
+/sport/FOOTBALL/matches/live
+404 {"success":false,"error":[["Url Bulunamad
+ı"]]}
+
+GET https://apivx.misli.az/api/web/statistics
+/sport/soccer/matches/live
+404 {"success":false,"error":[["Url Bulunamad
+ı"]]}
+
+GET https://apivx.misli.az/api/web/statistics
+/sport/SOCCER/matches/live
+404 {"success":false,"error":[["Url Bulunamad
+ı"]]}
+
+POST https://apivx.misli.az/api/web/sportsboo
+k/events/markets {}
+404 {"success":false,"error":[["Url Bulunamad
+ı"]]}
+
+POST https://apivx.misli.az/api/web/sportsboo
+k/events/markets {'sportType': 'football'}
+404 {"success":false,"error":[["Url Bulunamad
+ı"]]}
+
+## events/markets
+}):t.push({eventId:e.eventId||e.id,marketType
+:e.marketType,marketSubType:e.marketSubType})
+,n("sportsbook/markets").httpPost(t)},getAllC
+urrentMarkets:function(e){return n("sportsboo
+k/markets").httpPost(e)},getSingleEvent:funct
+ion(e){return n("sportsbook/event/".concat(e.
+eventId,"/single")).httpGet()},getMarketsInfo
+:function(e){return n("/sportsbook/events/mar
+kets").httpPost(e)},getFavoriteMarkets:functi
+on(){return n("sportsbook/favorite-markets").
+httpGet()},deleteFavoriteMarkets:function(e){
+return n("sportsbook/favorite-markets").httpD
+elete(e)},setFavoriteMarkets:function(e){retu
+rn n("sportsbook/favorite-markets").httpPost(
+e)},getFavoriteMatchCheck:function(e){return 
+n("/sportsbook/events?ids=".concat(e)).
+
+## sportType:
+se:null==ht?void 0:ht.bp,isLive:null==ht?void
+ 0:ht.l,bettingStatus:null==ht?void 0:ht.s,ho
+meTeam:null==ht?void 0:ht.ph,awayTeam:null==h
+t?void 0:ht.pa,sportType:null==ht?void 0:ht.s
+t,sportName:null==ht?void 0:ht.sn,leagueName:
+null==ht?void 0:ht.cn,countryName:null==ht?vo
+id 0:ht.con,markets:null!=ht&&ht.m?{id:n
+
+## sportType:
+arketSubType,marketName:n,specialOddsValue:e.
+specialOddsValue?e.specialOddsValue:null,outc
+omeNo:e.outcomeNo,outcomeName:i,bettingPhase:
+e.bettingPhase,sportType:e.sportType,odd:e.od
+d,banker:e.banker,isLongTerm:e.isLongTerm,dat
+e:e.date,status:e.status,mbs:e.mbc,sportId:e.
+sportId,score:null!=e.score?{status:e.sc
+
+## sportType:
+("{bet}",t.mns):Object(u.b)(r,null==t?void 0:
+t.mov))}var s=i;return e.ph&&!s&&(s=e.ph+" - 
+"+e.pa),{bettingPhase:e.bp,id:e.i,banker:!1,l
+ive:!!e.l&&e.l,sportType:Object(u.e)().market
+s[t.t+"-"+t.st].sportType,teamsName:s,date:e.
+d,marketId:t.i,marketVersion:t.v,marketType:t
+.t,marketSubType:t.st,marketName:o,event
+
+## sportType:
+t.typeId?parseInt(t.typeId.split("-")[0]):t.m
+arketType,marketSubType:t.typeId?parseInt(t.t
+ypeId.split("-")[1]):t.marketSubType,version:
+e.matchVersion,sportType:t.sportType,typeId:t
+.typeId?t.typeId:t.marketType+"-"+t.marketSub
+Type,status:o.status,specialOddValue:t.specia
+lOddsValue?t.specialOddsValue:"",dateId:
+
+## ootball
+tion(e,t,n){e.exports=n.p+"img/filter.a14d9c5
+.svg"},function(e,t,n){e.exports=n.p+"img/fil
+ter_white.5a948b4.svg"},function(e,t,n){e.exp
+orts=n.p+"img/football.68f3e54.svg"},function
+(e,t,n){e.exports=n.p+"img/footer-18+.929a03e
+.svg"},function(e,t,n){e.exports=n.p+"img/pho
+ne.ae53825.svg"},function(e,t,n){e.ex
+
+## ootball
+ll.5a3cf62.svg"},function(e,t,n){e.exports=n.
+p+"img/virtual-games-card-bg-car.821ad87.svg"
+},function(e,t,n){e.exports=n.p+"img/virtual-
+games-card-bg-football.12dde23.svg"},function
+(e,t,n){e.exports=n.p+"img/virtual-games-card
+-bg-marble.4a26b36.svg"},function(e,t,n){e.ex
+ports=n.p+"img/virtual-games-card-bg-
+
+## ootball
+s/won-coupon.svg":526,"./favori-arrow.svg":52
+7,"./favorite-active.svg":528,"./favorites-ic
+on.svg":529,"./filter.svg":530,"./filter_whit
+e.svg":531,"./football.svg":532,"./footer-and
+roid.svg":430,"./footer-app-store.svg":431,".
+/footer/bulletin-aktif.svg":889,"./footer/bul
+letin-pasif.svg":890,"./footer/coupon
+
+## ootball
+,"./virtual-games-banner-header.svg":635,"./v
+irtual-games-card-bg-basketball.svg":636,"./v
+irtual-games-card-bg-car.svg":637,"./virtual-
+games-card-bg-football.svg":638,"./virtual-ga
+mes-card-bg-marble.svg":639,"./virtual-games-
+card-bg-nfl.svg":640,"./virtual-games-card-bg
+-pl-tsl.svg":641,"./virtual-idman/VI-
