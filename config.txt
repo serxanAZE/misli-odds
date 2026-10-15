@@ -1,0 +1,35 @@
+API_URL
+https://apivx.misli.az/api/web/
+status 404
+
+CAMPAIGN_AGGREGATOR_API_URL
+https://campaign-aggregator.misli.az/api/web/
+status 404
+
+SOCIAL_AGGREGATOR_API_URL
+https://social-aggregator.misli.az/api/web/
+status 404
+
+SOCIAL_SOCKET_HOST_URL
+https://socket-social-service.misli.az/
+status 404
+
+SOCKET_HOST_URL
+https://socket-service.misli.az/
+status 200
+
+VIRTUAL_AGGREGATOR_API_URL
+https://virtual-game-aggregator.misli.az/api/web/
+status 404
+
+VIRTUAL_SOCKET_HOST_URL
+https://socket-virtual-game-service.misli.az/
+status 200
+
+WAGER_STATS_AGGREGATOR_API_URL
+https://wager-stats-aggregator.misli.az/api/web/
+status 200
+
+WAGER_STATS_SOCKET_HOST_URL
+https://socket-wager-stats.misli.az/
+status 404
